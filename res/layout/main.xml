@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#180052">
+    	
+    	<ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="80dp"
+        android:background="@drawable/voice"
+        android:layout_height="140dp"
+        android:textSize="42dp"
+        android:contentDescription="@string/speak" 
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp" />    
+    
+        <Button
+        android:id="@+id/buttonfeed"
+        android:background="#b22222"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_toRightOf="@+id/btnSpeak"
+        android:text="@string/buttonfeed" 
+        android:textColor="#ffffff" 
+        android:textSize="42dp" />
+        
+     <Button
+        android:id="@+id/buttonbookmark"
+        android:background="#577a2f"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/buttonfeed" 
+        android:text="@string/buttonbookmark" 
+        android:textColor="#ffffff" 
+        android:textSize="42dp" 
+        android:paddingRight="7dp"
+        android:paddingLeft="7dp" />   
+        
+     <Button
+        android:id="@+id/buttoncalc"
+        android:background="#a200aa"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/buttonbookmark"
+        android:text="@string/buttoncalc" 
+        android:textColor="#ffffff" 
+        android:textSize="42dp" 
+        android:paddingRight="7dp"
+        android:paddingLeft="7dp" />
+     
+     <Button
+        android:id="@+id/buttonset"
+        android:background="#7a7b7c"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/buttoncalc"
+        android:text="@string/buttonset" 
+        android:textColor="#ffffff" 
+        android:textSize="42dp" 
+        android:paddingRight="7dp"
+        android:paddingLeft="7dp" />
+     
+</RelativeLayout>
